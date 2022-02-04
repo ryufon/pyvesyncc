@@ -79,7 +79,7 @@ def _device_builder(device_type: str,
     return None
 
 
-class VeSync:
+class VeSyncc:
     """VeSync API functions."""
 
     def __init__(self, username, password, time_zone=DEFAULT_TZ):

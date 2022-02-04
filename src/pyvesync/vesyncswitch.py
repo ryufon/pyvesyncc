@@ -6,8 +6,8 @@ from abc import ABCMeta, abstractmethod
 from collections import defaultdict
 from typing import DefaultDict, Dict, List
 
-from pyvesync.helpers import Helpers as helpers
-from pyvesync.vesyncbasedevice import VeSyncBaseDevice
+from pyvesyncc.helpers import Helpers as helpers
+from pyvesyncc.vesyncbasedevice import VeSyncBaseDevice
 
 logger = logging.getLogger(__name__)
 

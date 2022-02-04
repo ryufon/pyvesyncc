@@ -5,8 +5,8 @@ import time
 import json
 from abc import ABCMeta, abstractmethod
 
-from pyvesync.helpers import Helpers
-from pyvesync.vesyncbasedevice import VeSyncBaseDevice
+from pyvesyncc.helpers import Helpers
+from pyvesyncc.vesyncbasedevice import VeSyncBaseDevice
 
 logger = logging.getLogger(__name__)
 

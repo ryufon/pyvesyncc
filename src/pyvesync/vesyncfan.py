@@ -4,15 +4,12 @@ import json
 import logging
 
 from typing import Dict, Tuple, Union
-from pyvesync.vesyncbasedevice import VeSyncBaseDevice
-from pyvesync.helpers import Helpers
+from pyvesyncc.vesyncbasedevice import VeSyncBaseDevice
+from pyvesyncc.helpers import Helpers
 
 air_features = {
     'Dual200S': [],
-    'Classic200S': [],
-    'LUH-D301S-WEU': [],
-    'LAP-C201S-AUSR': [],
-    'Classic300S': ['nightlight']
+    'Classic200S': ['nightlight']
 }
 
 logger = logging.getLogger(__name__)

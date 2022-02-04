@@ -2,7 +2,7 @@
 
 # pylint: skip-file
 # flake8: noqa
-from .vesync import VeSync
+from .vesyncc import VeSync
 from .vesyncoutlet import (
     VeSyncOutlet10A,
     VeSyncOutlet15A,

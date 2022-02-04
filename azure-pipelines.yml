@@ -25,15 +25,15 @@ jobs:
     displayName: 'Install dependencies'
   - script: |
       pip install flake8 flake8-docstrings
-      flake8 src/pyvesync
+      flake8 src/pyvesyncc
     displayName: 'Flake8'
   - script: |
       pip install pylint
-      pylint src/pyvesync
+      pylint src/pyvesyncc
     displayName: 'Pylint'
   - script: |
       pip install mypy
-      mypy src/pyvesync
+      mypy src/pyvesyncc
       python3 -m pip install types-requests
     displayName: 'MyPy'
 

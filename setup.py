@@ -9,9 +9,9 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='pyvesync',
+    name='pyvesyncc',
     version='1.4.2',
-    description='pyvesync is a library to manage Etekcity\
+    description='pyvesyncc is a library to manage Etekcity\
                  Devices and Levoit Air Purifier',
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -26,7 +26,7 @@ setup(
         'Natural Language :: English',
         'Programming Language :: Python :: 3.6',
     ],
-    keywords=['iot', 'vesync', 'levoit', 'etekcity'],
+    keywords=['iot', 'vesyncc', 'levoit', 'etekcity'],
     packages=find_packages('src', exclude=['tests', 'tests.*']),
     package_dir={'': 'src'},
     zip_safe=False,

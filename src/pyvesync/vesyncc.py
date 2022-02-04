@@ -7,22 +7,22 @@ from itertools import chain
 from collections import defaultdict
 from typing import List, Dict, DefaultDict, Union, Any, Type
 
-from pyvesync.helpers import Helpers
-from pyvesync.vesyncbasedevice import VeSyncBaseDevice
-from pyvesync.vesyncbulb import VeSyncBulbESL100, VeSyncBulbESL100CW
-from pyvesync.vesyncfan import (
+from pyvesyncc.helpers import Helpers
+from pyvesyncc.vesyncbasedevice import VeSyncBaseDevice
+from pyvesyncc.vesyncbulb import VeSyncBulbESL100, VeSyncBulbESL100CW
+from pyvesyncc.vesyncfan import (
     VeSyncAir131,
     VeSyncHumid200300S,
     VeSyncAir200S,
     VeSyncAir300S400S,
 )
-from pyvesync.vesyncoutlet import (
+from pyvesyncc.vesyncoutlet import (
     VeSyncOutlet7A,
     VeSyncOutlet10A,
     VeSyncOutlet15A,
     VeSyncOutdoorPlug,
 )
-from pyvesync.vesyncswitch import VeSyncWallSwitch, VeSyncDimmerSwitch
+from pyvesyncc.vesyncswitch import VeSyncWallSwitch, VeSyncDimmerSwitch
 
 logger = logging.getLogger(__name__)
 
